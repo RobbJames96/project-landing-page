@@ -1,4 +1,49 @@
+/*Styles for Entire Document*/
 * {
-    border: 1px solid black;
-    margin: 1px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*Header Styles*/
+.header-wrapper {
+    background-color: #1f2937;
+    padding: 20px 0 80px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+header ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
