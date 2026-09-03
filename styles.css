@@ -210,3 +210,14 @@ footer {
     font-size: 14px;
     margin-top: auto;
 }
+
+.cta-btn:hover,
+.hero-btn:hover {
+    cursor: pointer;
+    background-color: #2563EB;
+}
+
+header ul li a:hover {
+    font-style: italic;
+    color: #FFFFFF;
+}
