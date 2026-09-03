@@ -200,3 +200,13 @@ header ul li a {
     border-radius: 8px;
     background-color: #3882F6;
 }
+
+/*Footer Sector*/
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: auto;
+}
